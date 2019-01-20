@@ -15,6 +15,7 @@
 		4B7D890721F4235C0086C1DE /* eye_coachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D890621F4235C0086C1DE /* eye_coachUITests.swift */; };
 		4B7D891721F426A50086C1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D891421F426A50086C1DE /* ViewController.swift */; };
 		4B7D891821F426A50086C1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D891521F426A50086C1DE /* Main.storyboard */; };
+		4B7D891C21F42B280086C1DE /* fPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D891B21F42B280086C1DE /* fPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4B7D890821F4235C0086C1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7D891421F426A50086C1DE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../suco/suco/ViewController.swift; sourceTree = "<group>"; };
 		4B7D891621F426A50086C1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../suco/suco/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B7D891B21F42B280086C1DE /* fPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fPerson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4B7D88EF21F4235C0086C1DE /* LaunchScreen.storyboard */,
 				4B7D88F221F4235C0086C1DE /* Info.plist */,
 				4B7D88EA21F4235A0086C1DE /* eye_coach.xcdatamodeld */,
+				4B7D891B21F42B280086C1DE /* fPerson.swift */,
 			);
 			path = "eye-coach";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B7D891721F426A50086C1DE /* ViewController.swift in Sources */,
+				4B7D891C21F42B280086C1DE /* fPerson.swift in Sources */,
 				4B7D88EC21F4235A0086C1DE /* eye_coach.xcdatamodeld in Sources */,
 				4B7D88E421F4235A0086C1DE /* AppDelegate.swift in Sources */,
 			);
