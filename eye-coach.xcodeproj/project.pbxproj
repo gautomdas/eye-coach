@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4B7D88E421F4235A0086C1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D88E321F4235A0086C1DE /* AppDelegate.swift */; };
-		4B7D88E621F4235A0086C1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D88E521F4235A0086C1DE /* ViewController.swift */; };
-		4B7D88E921F4235A0086C1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D88E721F4235A0086C1DE /* Main.storyboard */; };
 		4B7D88EC21F4235A0086C1DE /* eye_coach.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D88EA21F4235A0086C1DE /* eye_coach.xcdatamodeld */; };
 		4B7D88EE21F4235C0086C1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D88ED21F4235C0086C1DE /* Assets.xcassets */; };
 		4B7D88F121F4235C0086C1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D88EF21F4235C0086C1DE /* LaunchScreen.storyboard */; };
 		4B7D88FC21F4235C0086C1DE /* eye_coachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D88FB21F4235C0086C1DE /* eye_coachTests.swift */; };
 		4B7D890721F4235C0086C1DE /* eye_coachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D890621F4235C0086C1DE /* eye_coachUITests.swift */; };
+		4B7D891721F426A50086C1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D891421F426A50086C1DE /* ViewController.swift */; };
+		4B7D891821F426A50086C1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D891521F426A50086C1DE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 /* Begin PBXFileReference section */
 		4B7D88E021F4235A0086C1DE /* eye-coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eye-coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7D88E321F4235A0086C1DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B7D88E521F4235A0086C1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B7D88E821F4235A0086C1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B7D88EB21F4235A0086C1DE /* eye_coach.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eye_coach.xcdatamodel; sourceTree = "<group>"; };
 		4B7D88ED21F4235C0086C1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7D88F021F4235C0086C1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		4B7D890221F4235C0086C1DE /* eye-coachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eye-coachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7D890621F4235C0086C1DE /* eye_coachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eye_coachUITests.swift; sourceTree = "<group>"; };
 		4B7D890821F4235C0086C1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7D891421F426A50086C1DE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../suco/suco/ViewController.swift; sourceTree = "<group>"; };
+		4B7D891621F426A50086C1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../suco/suco/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 		4B7D88E221F4235A0086C1DE /* eye-coach */ = {
 			isa = PBXGroup;
 			children = (
+				4B7D891521F426A50086C1DE /* Main.storyboard */,
+				4B7D891421F426A50086C1DE /* ViewController.swift */,
 				4B7D88E321F4235A0086C1DE /* AppDelegate.swift */,
-				4B7D88E521F4235A0086C1DE /* ViewController.swift */,
-				4B7D88E721F4235A0086C1DE /* Main.storyboard */,
 				4B7D88ED21F4235C0086C1DE /* Assets.xcassets */,
 				4B7D88EF21F4235C0086C1DE /* LaunchScreen.storyboard */,
 				4B7D88F221F4235C0086C1DE /* Info.plist */,
@@ -232,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7D891821F426A50086C1DE /* Main.storyboard in Resources */,
 				4B7D88F121F4235C0086C1DE /* LaunchScreen.storyboard in Resources */,
 				4B7D88EE21F4235C0086C1DE /* Assets.xcassets in Resources */,
-				4B7D88E921F4235A0086C1DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7D88E621F4235A0086C1DE /* ViewController.swift in Sources */,
+				4B7D891721F426A50086C1DE /* ViewController.swift in Sources */,
 				4B7D88EC21F4235A0086C1DE /* eye_coach.xcdatamodeld in Sources */,
 				4B7D88E421F4235A0086C1DE /* AppDelegate.swift in Sources */,
 			);
@@ -297,20 +297,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B7D88E721F4235A0086C1DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B7D88E821F4235A0086C1DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B7D88EF21F4235C0086C1DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B7D88F021F4235C0086C1DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4B7D891521F426A50086C1DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B7D891621F426A50086C1DE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
