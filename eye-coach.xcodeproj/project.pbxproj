@@ -13,9 +13,9 @@
 		4B7D88F121F4235C0086C1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D88EF21F4235C0086C1DE /* LaunchScreen.storyboard */; };
 		4B7D88FC21F4235C0086C1DE /* eye_coachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D88FB21F4235C0086C1DE /* eye_coachTests.swift */; };
 		4B7D890721F4235C0086C1DE /* eye_coachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D890621F4235C0086C1DE /* eye_coachUITests.swift */; };
-		4B7D891721F426A50086C1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D891421F426A50086C1DE /* ViewController.swift */; };
 		4B7D891821F426A50086C1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D891521F426A50086C1DE /* Main.storyboard */; };
 		4B7D891C21F42B280086C1DE /* fPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D891B21F42B280086C1DE /* fPerson.swift */; };
+		4B7D891E21F42D520086C1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D891D21F42D510086C1DE /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +48,9 @@
 		4B7D890221F4235C0086C1DE /* eye-coachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eye-coachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7D890621F4235C0086C1DE /* eye_coachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eye_coachUITests.swift; sourceTree = "<group>"; };
 		4B7D890821F4235C0086C1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B7D891421F426A50086C1DE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../suco/suco/ViewController.swift; sourceTree = "<group>"; };
 		4B7D891621F426A50086C1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../suco/suco/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B7D891B21F42B280086C1DE /* fPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fPerson.swift; sourceTree = "<group>"; };
+		4B7D891D21F42D510086C1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				4B7D891521F426A50086C1DE /* Main.storyboard */,
-				4B7D891421F426A50086C1DE /* ViewController.swift */,
 				4B7D88E321F4235A0086C1DE /* AppDelegate.swift */,
 				4B7D88ED21F4235C0086C1DE /* Assets.xcassets */,
 				4B7D88EF21F4235C0086C1DE /* LaunchScreen.storyboard */,
 				4B7D88F221F4235C0086C1DE /* Info.plist */,
 				4B7D88EA21F4235A0086C1DE /* eye_coach.xcdatamodeld */,
 				4B7D891B21F42B280086C1DE /* fPerson.swift */,
+				4B7D891D21F42D510086C1DE /* ViewController.swift */,
 			);
 			path = "eye-coach";
 			sourceTree = "<group>";
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7D891721F426A50086C1DE /* ViewController.swift in Sources */,
 				4B7D891C21F42B280086C1DE /* fPerson.swift in Sources */,
 				4B7D88EC21F4235A0086C1DE /* eye_coach.xcdatamodeld in Sources */,
+				4B7D891E21F42D520086C1DE /* ViewController.swift in Sources */,
 				4B7D88E421F4235A0086C1DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.eye-coach";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loqu.testar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.eye-coach";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loqu.testar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
